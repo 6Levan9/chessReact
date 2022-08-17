@@ -1,0 +1,46 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+.map{
+    
+}
+
+.board{
+    width: min(100vh, 100vw);
+    height: min(100vh, 100vw);
+    background-color: rgb(255, 255, 255);
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+ 
+
+.board > div{
+    border:1px solid black
+}
+
+.square1:nth-child(odd) {
+    background-color: rgb(255, 255, 255);
+}
+
+.square2:nth-child(odd) {
+    background-color: gray;
+}
+
+.square1:nth-child(even) {
+    background-color: gray;
+}
+

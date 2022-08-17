@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+.login {
+    display: grid;
+    margin-top: 200px;
+    grid-template-columns:1, 300px;
+    grid-template-rows: repeat(4 200px);
+    justify-content: center;
+    column-fill: auto;
+   
+    
+}
+.area{
+    background-color: gray;
+    border-radius: 10px;
+    justify-content:center;
+    width: 300px;
+}
+.text {
+font-family: 'Press Start 2P', cursive;
+grid-area: 1/1/1/1;
+text-align: center;
+margin-top: 20px;
+}
+
+.email{
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 193px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: hsl(0, 0%, 0%);
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+   
+
+}
+
+.password{
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 193px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: hsl(0, 0%, 0%);
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+
+}
+
+.button{
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: hsl(0, 0%, 0%);
+    font-family: 'Press Start 2P', cursive;
+}

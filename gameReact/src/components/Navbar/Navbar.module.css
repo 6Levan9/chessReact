@@ -1,0 +1,13 @@
+.nav {
+    grid-area: h;
+    background-color: gray;
+    text-align: center;
+  }
+
+.item a {
+color: white;
+}
+
+.item a.activelink {
+color:rgb(255, 38, 0); 
+}
